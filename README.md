@@ -6,4 +6,5 @@
 </p>
 
 # python-package-template
-A template for Python packages. It does what it says on the tin.
+
+A template for Python packages. It does what it says on the tin. For Python >=3.5.
