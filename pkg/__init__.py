@@ -9,3 +9,5 @@ except ImportError:  # for Python<3.8
 
 # this will load the latest _installed_ version.
 __version__ = metadata.version("pkg")
+
+print("Hello, world")

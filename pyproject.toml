@@ -11,6 +11,7 @@ readme = "README.md"
 python = "^3.6"
 
 [tool.poetry.dev-dependencies]
+bandit = "1.6.2"
 pytest = "^4.6"
 pre-commit = "*"
 
