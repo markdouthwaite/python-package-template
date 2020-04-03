@@ -1,5 +1,3 @@
-
-
 def test_hello_world():
     message = "Hello, world!"
 
