@@ -5,6 +5,4 @@
 <a href="https://github.com/PeakBI/python-package-template/actions"><img alt="Build Status" src="https://github.com/markdouthwaite/python-package-template/workflows/Build/badge.svg"></a>
 </p>
 
-# python-package-template
-
-A template for Python packages. It does what it says on the tin. For Python >=3.5.
+A template for Python packages. It does what it says on the tin. For Python >=3.6.
