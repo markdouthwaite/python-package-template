@@ -28,10 +28,10 @@ jobs:
         python -m pip install --upgrade pip poetry==1.0.5
     - name: Create venv
       run: |
-        python -m venv /venv && /venv/bin/pip install -U pip
+        python -m venv venv && venv/bin/pip install -U pip
     - name: Install dependencies
       run: |
-        poetry export -f requirements.txt | /venv/bin/pip install -r /dev/stdin
+        poetry export -f requirements.txt | venv/bin/pip install -r /dev/stdin
     - name: Lint with flake8
       run: |
         pylint
