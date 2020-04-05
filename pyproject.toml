@@ -12,6 +12,7 @@ python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 bandit = "1.6.2"
+pylint = "*"
 pytest = "^4.6"
 pre-commit = "*"
 
